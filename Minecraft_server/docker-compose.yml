@@ -2,7 +2,7 @@ version: "3.9"
     
 services:
   mc: 
-    image: 42b7cb5fdae8
+    image: wuill3x/isitech
     stdin_open: true
     restart: unless-stopped
     ports:
