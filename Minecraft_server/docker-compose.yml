@@ -3,7 +3,7 @@ version: "3.9"
 services:
   mc: 
     image: 42b7cb5fdae8
-    command: ["/bin/bash", "-c", "sleep 3600", "./home/minecraft/start.sh"]
+    stdin_open: true
     restart: unless-stopped
     ports:
       - "25565:25565"
