@@ -5,6 +5,7 @@ services:
     image: wuill3x/isitech
     stdin_open: true
     restart: unless-stopped
+    container_name: server-mc
     ports:
       - "25565:25565"
     volumes:
